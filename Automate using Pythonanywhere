@@ -1,0 +1,11 @@
+To run this code automatically every day:
+
+1. Sign up at [pythonanywhere.com](https://www.pythonanywhere.com).
+2. Upload `main.py` and `birthdays.csv`. Also, create a directory on the website named exactly `letter_templates`.
+3. Inside the `letter_templates` directory, upload the files: `letter_1.txt`, `letter_2.txt`, and `letter_3.txt`.
+4. Go to the **Tasks** tab and add a new scheduled task.
+5. Set the path to `main.py` and choose the time you want it to run.
+
+**Note:** The file and directory names must match exactly as used in the code, otherwise the script will raise an error.
+
+PythonAnywhere will now run the code daily at the scheduled time.
